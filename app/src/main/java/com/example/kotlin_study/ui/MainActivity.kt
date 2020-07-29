@@ -18,6 +18,9 @@ import com.example.kotlin_study.ui.fragment.HolderFragment
 import com.example.kotlin_study.ui.fragment.IOSFragment
 import kotlinx.android.synthetic.main.activity_main.*
 
+/**
+ * git 提交测试
+ */
 class MainActivity : BaseBindingActivity<ActivityMainBinding>() {
 
     lateinit var mFragments: MutableList<Fragment>
