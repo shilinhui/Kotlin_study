@@ -19,7 +19,7 @@ import com.example.kotlin_study.ui.fragment.IOSFragment
 import kotlinx.android.synthetic.main.activity_main.*
 
 /**
- * git 提交测试指定文件
+ * git 提交测试指定文件Commit
  */
 class MainActivity : BaseBindingActivity<ActivityMainBinding>() {
 
