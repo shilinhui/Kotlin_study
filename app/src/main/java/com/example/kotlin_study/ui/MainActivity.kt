@@ -17,6 +17,7 @@ import com.example.kotlin_study.ui.fragment.GirlFragment
 import com.example.kotlin_study.ui.fragment.HolderFragment
 import com.example.kotlin_study.ui.fragment.IOSFragment
 import kotlinx.android.synthetic.main.activity_main.*
+import java.util.*
 
 class MainActivity : BaseBindingActivity<ActivityMainBinding>() {
 
