@@ -11,14 +11,11 @@ import com.example.kotlin_study.R
 import com.example.kotlin_study.base.BaseBingingFragment
 import com.example.kotlin_study.databinding.FragmentHolderBinding
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
 
 /**
- * A simple [Fragment] subclass.
- *
+ *关于
  */
 class HolderFragment : BaseBingingFragment<FragmentHolderBinding>() {
 

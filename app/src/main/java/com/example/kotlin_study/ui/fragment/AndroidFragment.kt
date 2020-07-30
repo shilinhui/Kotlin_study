@@ -11,6 +11,9 @@ import com.example.kotlin_study.R
 import com.example.kotlin_study.base.BaseBingingFragment
 import com.example.kotlin_study.databinding.FragmentAndroidBinding
 
+/**
+ * Android
+ */
 class AndroidFragment : BaseBingingFragment<FragmentAndroidBinding>() {
 
     companion object {

@@ -11,7 +11,9 @@ import com.example.kotlin_study.R
 import com.example.kotlin_study.base.BaseBingingFragment
 import com.example.kotlin_study.databinding.FragmentGirlBinding
 
-
+/**
+ * 妹子
+ */
 class GirlFragment : BaseBingingFragment<FragmentGirlBinding>() {
 
     companion object {
