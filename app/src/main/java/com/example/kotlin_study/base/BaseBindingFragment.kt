@@ -7,7 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 
-abstract class BaseBingingFragment<B : ViewDataBinding> : Fragment() {
+abstract class BaseBindingFragment<B : ViewDataBinding> : Fragment() {
     lateinit var mBinding : B
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         mBinding = crateDataBinding(inflater, container, savedInstanceState)

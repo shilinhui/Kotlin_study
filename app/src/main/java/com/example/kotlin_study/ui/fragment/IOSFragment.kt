@@ -2,19 +2,16 @@ package com.example.kotlin_study.ui.fragment
 
 
 import android.os.Bundle
-import android.support.v4.app.Fragment
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 
-import com.example.kotlin_study.R
-import com.example.kotlin_study.base.BaseBingingFragment
+import com.example.kotlin_study.base.BaseBindingFragment
 import com.example.kotlin_study.databinding.FragmentIoBinding
 
 /**
  * IOS
  */
-class IOSFragment : BaseBingingFragment<FragmentIoBinding>() {
+class IOSFragment : BaseBindingFragment<FragmentIoBinding>() {
 
     companion object {
         val IOS = "IOS"

@@ -2,13 +2,11 @@ package com.example.kotlin_study.ui.fragment
 
 
 import android.os.Bundle
-import android.support.v4.app.Fragment
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 
 import com.example.kotlin_study.R
-import com.example.kotlin_study.base.BaseBingingFragment
+import com.example.kotlin_study.base.BaseBindingFragment
 import com.example.kotlin_study.databinding.FragmentHolderBinding
 
 private const val ARG_PARAM1 = "param1"
@@ -17,7 +15,7 @@ private const val ARG_PARAM2 = "param2"
 /**
  *关于
  */
-class HolderFragment : BaseBingingFragment<FragmentHolderBinding>() {
+class HolderFragment : BaseBindingFragment<FragmentHolderBinding>() {
 
     companion object {
         val HOLDER = "HOLDER"
@@ -39,6 +37,18 @@ class HolderFragment : BaseBingingFragment<FragmentHolderBinding>() {
     }
 
     override fun initView() {
+        val text = "\"Kotlin\\n\""
+            .plus("Dagger 2\n")
+            .plus("Retrofit 2\n")
+            .plus("OkHttp 3\n")
+            .plus("DataBinding\n")
+            .plus("DeepLinkDispatch\n")
+            .plus("Gson\n")
+            .plus("Glide")
+        mBinding?.imgAvatar?.setImageResource(R.mipmap.ic_launcher_round)
+        mBinding.tvThank.text = "Kotlin学习 参照"
+        mBinding.tvGitAddress.text = "https://github.com/githubwing/GankClient-Kotlin"
+        mBinding.tvSummary.text = text
     }
 
 }
